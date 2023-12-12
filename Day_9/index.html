@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selectors</title>
+</head>
+<style>
+    /* element selector*/
+    div {
+        /* color: pink; */
+        /* background-color: black; */
+    }
+        /* class selector */
+        .pink{
+            background-color: rgb(0, 0, 0);
+            color: aliceblue;
+        }
+        /* id selector */
+        #green{
+            color: aqua;
+            background-color: darkblue;
+        }
+        /* child selector */
+        ul > li{
+            background-color: blanchedalmond;
+            list-style-type: none;
+            color: blueviolet;
+        }
+        /* descendant selector */
+        div p{
+            color:  red;
+        }
+        /* universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* pseudo selector */
+        a:link{
+            color: yellow;
+        }
+        a:link{
+            color: green;
+        }
+        a:active{
+            color: pink;
+        }
+</style>
+<body>
+    <div>
+        Hello world
+    
+    </div>
+    <div class="pink">
+        
+         hello world
+    </div>
+
+    <div id="green">
+        <p>
+            hi this is sonia
+        </p>
+    </div>
+    <ul>
+        <li>
+            home
+        </li>
+        <li>
+            about
+        </li>
+        <li>
+            contact
+        </li>
+    </ul>
+    <div>
+        <p class="blue">
+            this is descendant selector
+        </p>
+    </div>
+    <div>
+        <a href="https://www.google.com">google</a>
+        <a href="https://www.wix.com">facebook2</a>
+    </div>
+</body>
+</html>
