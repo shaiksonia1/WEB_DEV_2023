@@ -1,0 +1,14 @@
+.dark{
+    background-color: black;
+    color: white;
+}
+.light{
+    background-color: white;
+    color: black;
+}
+#modebtn{
+    background-color: pink;
+    border: solid 1px green;
+    border-radius: 20px;
+    
+}
